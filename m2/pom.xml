@@ -7,6 +7,16 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>try-gradle-m2</artifactId>
+	<name>try-gradle-m2</name>
 	<version>2.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
+	<properties>
+		<m2.name>${project.name}</m2.name>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.rj.try</groupId>
+			<artifactId>try-gradle-m1</artifactId>
+		</dependency>
+	</dependencies>
 </project>
